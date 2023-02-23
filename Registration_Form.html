@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Registration Form</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	<form>
+		<h3>AMAZON REGISTRATION FORM</h3>
+		<table align="center" cellpadding = "10">
+			<!----- First Name ---------------------------------------------------------->
+			<tr>
+				<td>FIRST NAME</td>
+				<td><input type="text" name="First_Name" maxlength="30"/>
+					(Max 30 characters a-z and A-Z)
+				</td>
+			</tr>
+ 
+			<!----- Last Name ---------------------------------------------------------->
+			<tr>
+				<td>LAST NAME</td>
+				<td><input type="text" name="Last_Name" maxlength="30"/>
+					(Max 30 characters a-z and A-Z)
+				</td>
+			</tr>
+ 
+			<!----- Date Of Birth -------------------------------------------------------->
+			<tr>
+				<td>DATE OF BIRTH</td>
+				<td>
+				<input type="Date" id="dob" name="dob"/>
+				</td>
+			</tr>
+ 
+			<!----- Email Id ---------------------------------------------------------->
+			<tr>
+				<td>EMAIL ID</td>
+				<td><input type="text" name="Email_Id" maxlength="100" placeholder="name@email.com"/></td>
+			</tr>
+ 
+			<!----- Mobile Number ---------------------------------------------------------->
+			<tr>
+				<td>MOBILE NUMBER</td>
+				<td>
+				<input type="text" name="Mobile_Number" maxlength="10" placeholder="6758467342"/>
+				</td>
+			</tr>
+ 
+			<!----- Gender ----------------------------------------------------------->
+			<tr>
+				<td>GENDER</td>
+				<td>
+				Male <input type="radio" name="Gender" value="Male" />
+				Female <input type="radio" name="Gender" value="Female" />
+				</td>
+			</tr>
+ 
+			<!----- Address ---------------------------------------------------------->
+			<tr>
+				<td>ADDRESS <br /><br /><br /></td>
+				<td><textarea name="Address" rows="4" cols="30" placeholder="House No., Street Name, City, State, Country"></textarea></td>
+			</tr>
+ 
+			<!----- City ---------------------------------------------------------->
+			<tr>
+				<td>CITY</td>
+				<td><input type="text" name="City" maxlength="30" />
+				</td>
+			</tr>
+ 
+			<!----- Pin Code ---------------------------------------------------------->
+			<tr>
+				<td>PIN CODE</td>
+				<td><input type="text" name="Pin_Code" maxlength="6" placeholder="000000" />
+				</td>
+			</tr>
+ 
+			<!----- State ---------------------------------------------------------->
+			<tr>
+				<td>STATE</td>
+				<td><input type="text" name="State" maxlength="30" />
+				</td>
+			</tr>
+ 
+			<!----- Country ---------------------------------------------------------->
+			<tr>
+				<td>COUNTRY</td>
+				<td><input type="text" name="Country" /></td>
+			</tr>
+ 
+			<!----- Hobbies ---------------------------------------------------------->
+			<tr>
+				<td>TECHNICAL SKILLS <br /><br /><br /></td>
+				<td>
+					Java
+					<input type="checkbox" name="Java" value="Java" />
+					Python
+					<input type="checkbox" name="Python" value="Python" />
+					C++
+					<input type="checkbox" name="C++" value="C++" />
+					Microsoft Azure
+					<input type="checkbox" name="Microsoft_Azure" value="Microsoft Azure" />
+					C
+					<input type="checkbox" name="C" value="C" />
+					Data Structures & Algorithms
+					<input type="checkbox" name="Data_Structires_Algorithms" value="Data_Structures_Algorithms`" />
+					React JS
+					<input type="checkbox" name="React_JS" value="React_JS" />
+					<br />
+					Others
+					<input type="checkbox" name="Hobby_Other" value="Other">
+					<input type="text" name="Other_Hobby" maxlength="80" />
+				</td>
+			</tr>
+ 
+			<!----- Qualification---------------------------------------------------------->
+			<tr>
+				<td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td> 
+				<td>
+				<table>
+					<tr>
+						<td align="center"><b>Examination</b></td>
+						<td align="center"><b>Board</b></td>
+						<td align="center"><b>Percentage</b></td>
+						<td align="center"><b>Year of Passing</b></td>
+						</tr>
+ 
+					<tr>
+						<td>Class X</td>
+						<td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+						<td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+						<td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+					</tr>
+ 
+					<tr>
+						<td>Class XII</td>
+						<td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+						<td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+						<td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+					</tr>
+ 
+					<tr>
+						<td>Graduation</td>
+						<td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+						<td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+						<td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+					</tr>
+ 
+					<tr>
+						<td>Masters</td>
+						<td><input type="text" name="Masters_Board" maxlength="30" /></td>
+						<td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+						<td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+					</tr>
+					<tr>
+						<td><br /></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+ 
+			<!----- Course ---------------------------------------------------------->
+			<tr>
+				<td>DEGREE<br /></td>
+				<td>
+					<select id="Degree" name="Degree">
+						<option value="-1">Course</option>
+						<option value="B.Tech">B.Tech</option>
+						<option value="BBA">BBA</option>
+						<option value="B.Com">B.Com</option>
+						<option value="M.Tech">M.Tech</option>
+						<option value="B.Sc">B.Sc</option>
+					</select>
+				</td>
+			</tr>
+ 
+			<!----- Submit and Reset ------------------------------------------------->
+			<tr>
+				<td colspan="2" align="center">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+				</td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>
