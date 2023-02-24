@@ -1,6 +1,6 @@
 body{
   background: rgb(227,226,242);
-background: linear-gradient(45deg, rgba(215, 215, 216, 0.804) 0%, rgba(234, 234, 237, 0.918) 35%, rgba(228, 229, 229, 0.827) 100%);
+  background: linear-gradient(45deg, rgba(215, 215, 216, 0.804) 0%, rgba(234, 234, 237, 0.918) 35%, rgba(228, 229, 229, 0.827) 100%);
 }
 
 h3{
@@ -28,9 +28,9 @@ table.inner{
 }
 
 .dob{
-	float: left;
-	width: 90%;
-	margin-top:6px;
+  float: left;
+  width: 90%;
+  margin-top:6px;
 }
 
 input[type=submit]{
@@ -38,7 +38,7 @@ input[type=submit]{
   color: aliceblue;
   margin: 7px;
   padding: 5px;
-	background-color: #31b735;
+  background-color: #31b735;
 }
 
 input[type=text]{
@@ -51,5 +51,5 @@ input[type=reset]{
   color: aliceblue;
   margin: 7px;
   padding: 5px;
-	background-color: #f02a14;
+  background-color: #f02a14;
 }
