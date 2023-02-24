@@ -1,0 +1,62 @@
+body{
+
+  background: rgb(227,226,242);
+
+background: linear-gradient(45deg, rgba(215, 215, 216, 0.804) 0%, rgba(234, 234, 237, 0.918) 35%, rgba(228, 229, 229, 0.827) 100%);
+
+}
+
+h3{
+
+  font-family: 'Times New Roman', Times, serif; 
+
+  font-size: 25pt;         
+
+  font-style: normal; 
+
+  font-weight: bold; 
+
+  color:rgb(80, 25, 175);
+
+  text-align: center; 
+
+}
+
+table{
+
+  font-family: 'Times New Roman', Times, serif; 
+
+  color:rgb(0, 0, 0); 
+
+  font-size: 11pt; 
+
+  font-style: normal;
+
+  font-weight: bold; 
+
+  background: rgb(249,227,179);
+
+  background: radial-gradient(circle, rgba(249,227,179,0.5187324929971988) 0%, rgba(230,219,180,0.46551120448179273) 37%, rgba(230,194,127,0.5159313725490196) 100%);  
+
+  border-collapse: collapse; 
+
+  border: 2px solid rgb(22, 22, 102)
+
+}
+
+table.inner{
+
+  border: 0px
+
+}
+
+.dob{
+
+    float: left;
+
+    width: 90%;
+
+    margin-top:6px;
+
+}
+
